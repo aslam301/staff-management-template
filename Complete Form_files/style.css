@@ -1,0 +1,32 @@
+.head{
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
+#image{
+    height: 150px;
+}
+.nav{
+    background-color: rgb(241, 246, 253);
+}
+#logo{
+    width: 80px;
+    image-resolution:300px;
+    margin-left: 200px;
+    
+}
+#subhead{
+    color: rgb(202, 101, 101);
+    font-size: medium;
+    margin-top: 65px;
+    margin-left: 25px;
+}
+#back{
+    background-color: rgb(248, 246, 255);
+    height: 25cm;
+    border-radius: 25px;
+}
+#formhed{
+    font-size: small;
+    margin-left: 15px;
+}
