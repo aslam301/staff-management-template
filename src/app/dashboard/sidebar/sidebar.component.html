@@ -1,0 +1,74 @@
+<div class="container-fluid bg-white rounded-3 shadow-sm border sidebar">
+    <div class="row py-3">
+        <div [routerLink]="['/dashboard']" routerLinkActive="active"  class="col-12  active py-3 pointer">
+            <i class="bi bi-house-door"></i>
+            <span class="ms-3">Home</span>
+        </div>
+        <div [routerLink]="['./shedule']" routerLinkActive="active"  class="col-12 py-3 pointer">
+            <i class="bi bi-shop"></i>
+            <span class="ms-3">My Shedule</span>
+        </div>
+        <div [routerLink]="['./myavailability']" routerLinkActive="active"  class="col-12 py-3 pointer">
+            <i class="bi bi-calendar-event"></i>
+            <span class="ms-3">My Availability</span>
+        </div>
+        
+        <div [routerLink]="['./notification']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-card-checklist"></i>
+            <span class="ms-3">Notification</span>
+        </div>
+        <div [routerLink]="['./knowledgebase']" routerLinkActive="active"  class="col-12 py-3 pointer">
+            <i class="bi bi-briefcase"></i>
+            <span class="ms-3">Knowledge Base</span>
+        </div>
+        <div [routerLink]="['./stafflanding']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-basket"></i>
+            <span class="ms-3">Staffs</span>
+        </div>
+        <div [routerLink]="['./serviceuserslanding']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-calendar-event"></i>
+            <span class="ms-3">Service Users</span>
+        </div>
+        <div [routerLink]="['./organization']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-bell"></i>
+            <span class="ms-3">Organization</span>
+        </div>
+
+        
+        <div [routerLink]="['./finance']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-person-badge"></i>
+            <span class="ms-3">Finance</span>
+        </div>
+        <div [routerLink]="['./sheduleshedule']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-person-bounding-box"></i>
+            <span class="ms-3">Shedule</span>
+        </div>
+
+        <div [routerLink]="['./information']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-bell"></i>
+            <span class="ms-3">Information</span>
+        </div>
+        <div [routerLink]="['./admin']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-people"></i>
+            <span class="ms-3">Admin</span>
+        </div>
+       
+        <div [routerLink]="['./donate']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-heart"></i>
+            <span class="ms-3">Donate</span>
+        </div>
+        
+        <div [routerLink]="['./guest']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-cart"></i>
+            <span class="ms-3">Guest</span>
+        </div>
+        <div [routerLink]="['./subadmins']" routerLinkActive="active" class="col-12 py-3 pointer">
+            <i class="bi bi-shield-shaded"></i>
+            <span class="ms-3">Sub admins</span>
+        </div>
+        <div (click)="logout()" class="col-12 py-3 pointer">
+            <i class="bi bi-power"></i>
+            <span class="ms-3">Logout</span>
+        </div>
+    </div>
+</div>

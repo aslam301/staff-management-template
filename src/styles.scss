@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "../node_modules/ngx-toastr/toastr.css";
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.pointer{
+    cursor: pointer !important;
+}
+
+.bg-custom {
+    background-color: white;
+    color: black;
+}
+
+.text-custom {
+    color: rgb(106, 6, 116);
+}
+
+.active {
+    color: rgb(0, 4, 247);
+}
